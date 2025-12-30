@@ -4,7 +4,7 @@ Bỏ học giữa chừng là một trong những vấn đề nghiêm trọng tr
 
 Dự án này xây dựng một hệ thống Machine Learning nhằm dự đoán khả năng sinh viên tiếp tục học hay bỏ học giữa chừng, dựa trên các thông tin học tập, tài chính và hành vi của sinh viên. Hệ thống được triển khai dưới dạng ứng dụng Web nhằm hỗ trợ ra quyết định.
 
----
+
 
 ## 📌 Mục tiêu dự án
 
@@ -20,7 +20,7 @@ Dự án này xây dựng một hệ thống Machine Learning nhằm dự đoán
 - So sánh hiệu quả giữa các mô hình học máy
 - Xây dựng ứng dụng Web hỗ trợ dự đoán và ra quyết định
 
----
+
 
 ## 📂 Dataset
 
@@ -66,7 +66,7 @@ Dự án này xây dựng một hệ thống Machine Learning nhằm dự đoán
 34. GDP – Tổng sản phẩm quốc nội  
 35. Target – Trạng thái sinh viên  
 
----
+
 
 ## 🔄 Pipeline thực hiện
 
@@ -88,7 +88,7 @@ Dự án này xây dựng một hệ thống Machine Learning nhằm dự đoán
 ### 4. Triển khai
 - Tích hợp mô hình vào ứng dụng Web bằng Streamlit
 
----
+
 
 ## 🤖 Các mô hình sử dụng
 
@@ -97,7 +97,7 @@ Dự án này xây dựng một hệ thống Machine Learning nhằm dự đoán
 - K-Nearest Neighbors (KNN)
 - Naive Bayes
 
----
+
 
 ## ⚙️ Cài đặt và chạy dự án
 
@@ -118,7 +118,6 @@ macOS / Linux:
 Cài đặt thư viện:
     pip install -r requirements.txt
 
----
 
 ### Huấn luyện mô hình
 
@@ -130,7 +129,7 @@ Mở file:
 
 Chọn Cell → Run All để chạy toàn bộ quy trình.
 
----
+
 
 ### Chạy ứng dụng Web
 
@@ -142,7 +141,7 @@ Truy cập:
 
 Nhập thông tin sinh viên và xem kết quả dự đoán.
 
----
+
 
 ## 📁 Cấu trúc thư mục
 
@@ -168,11 +167,11 @@ Dropout_Project/
 ├── requirements.txt                # Danh sách các thư viện Python cần thiết
 └── README.md                       # Tài liệu hướng dẫn sử dụng
 
----
+
 
 ## 👥 Tác giả
 
 - Đặng Trung Hiếu – MSSV: 12423010 – Lớp: 124231  
 - Dương Quốc Huy – MSSV: 12423060 – Lớp: 124231  
 
----
+

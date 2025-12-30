@@ -147,20 +147,26 @@ Nhập thông tin sinh viên và xem kết quả dự đoán.
 ## 📁 Cấu trúc thư mục
 
 Dropout_Project/
+│
 ├── app/
-│   └── app.py
+│   └── app.py                      # Source code chính của ứng dụng Web (Streamlit)
+│
 ├── data/
-│   └── dataset.csv
+│   └── dataset.csv  # Dữ liệu gốc sử dụng cho huấn luyện
+│
 ├── demo/
-│   └── Dropout_Student.ipynb
+│   └── Dropout_Student.ipynb          # Notebook dùng để phân tích dữ liệu (EDA) và thử nghiệm mô hình
+│
 ├── reports/
-│   └── Dropout_project.docx
+│   └── Dropout_project.docx               # Báo cáo
+│
 ├── slides/
-│   └── Dropout_Project.pdf
-├── venv/
-├── .gitignore
-├── requirements.txt
-└── README.md
+│   └── Dropout_Project.pdf   # Slide báo cáo
+│
+├── venv/                           # Thư mục môi trường ảo
+├── .gitignore                      # Cấu hình các file GitHub cần bỏ qua
+├── requirements.txt                # Danh sách các thư viện Python cần thiết
+└── README.md                       # Tài liệu hướng dẫn sử dụng
 
 ---
 

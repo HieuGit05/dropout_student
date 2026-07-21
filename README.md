@@ -97,6 +97,34 @@ Dự án này xây dựng một hệ thống Machine Learning nhằm dự đoán
 - K-Nearest Neighbors (KNN)
 - Naive Bayes
 
+## 🤖 Kết quả mô hình
+
+Kết quả được đánh giá trên tập test gồm `885` sinh viên.
+
+| Mô hình | Accuracy | Precision Dropout | Recall Dropout | F1-score Dropout |
+|---|---:|---:|---:|---:|
+| Logistic Regression | **88.02%** | 79% | **85%** | **82%** |
+| Random Forest | 87.91% | **84%** | 77% | 80% |
+| KNN | 78.19% | 62% | 80% | 70% |
+| Naive Bayes | 34.80% | 33% | 99% | 49% |
+
+### Nhận xét
+
+- **Logistic Regression** cho kết quả cân bằng nhất giữa Accuracy, Recall và F1-score.
+- **Random Forest** có Precision cao nhất đối với lớp Dropout, nhưng Recall thấp hơn Logistic Regression.
+- **KNN** phát hiện được khá nhiều sinh viên bỏ học nhưng tạo ra nhiều dự đoán sai hơn.
+- **Naive Bayes** có Recall rất cao nhưng Accuracy và Precision thấp, nên mô hình dự đoán quá nhiều sinh viên thuộc nhóm Dropout.
+
+### Mô hình phù hợp nhất
+
+Trong phạm vi thử nghiệm của dự án, **Logistic Regression** là mô hình phù hợp nhất vì:
+
+- Accuracy đạt `88.02%`.
+- Recall của lớp Dropout đạt `85%`.
+- F1-score của lớp Dropout đạt `82%`.
+- Kết quả cân bằng hơn so với các mô hình còn lại.
+
+> Nếu nhà trường ưu tiên hạn chế bỏ sót sinh viên có nguy cơ bỏ học, Recall của lớp Dropout nên được xem là chỉ số quan trọng hơn Accuracy đơn thuần.
 
 
 ## ⚙️ Cài đặt và chạy dự án
@@ -165,8 +193,7 @@ Dropout_Project/
 
 
 ## 👥 Tác giả
-
 - Đặng Trung Hiếu – MSSV: 12423010 – Lớp: 124231  
-- Dương Quốc Huy – MSSV: 12423060 – Lớp: 124231  
+
 
 
